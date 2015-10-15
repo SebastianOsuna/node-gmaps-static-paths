@@ -12,8 +12,8 @@ npm install gmaps-static-paths --save
 
 Require
 
-```
-var gmapsPaths = require('gmaps-static-paths');
+```javascript
+var gmapsPaths = require('gmaps-static-paths')(GMAPS_KEY);
 ```
 
 Generate urls
